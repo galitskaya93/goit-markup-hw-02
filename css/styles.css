@@ -49,7 +49,6 @@ letter-spacing: 0.02em;
 .link {
     text-decoration: none;
     list-style: none;
-    font-style: normal;
 }
 
 .contacts {
@@ -143,6 +142,7 @@ letter-spacing: 0.03em;
 
 .address {
     color: white;
+    font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -150,6 +150,7 @@ letter-spacing: 0.03em;
 
 .address-list {
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
