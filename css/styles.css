@@ -2,7 +2,6 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196F3;
-  --primary-bg-color: #E5E5E5;
   --white-color: #FFFFFF;
   --footer-bg-color: #2F303A;
   --section-bg-color: #F5F4FA;
@@ -21,9 +20,9 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-ul {
+/* .page {
     list-style: none;
-}
+} */
 
 .site-nav {
 color: var(--title-text-color);
@@ -36,28 +35,29 @@ letter-spacing: 0.02em;
 
 .logo {
     color: #212121;
-    font-family: Raleway, cursive;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    text-decoration: none;
     }
 
 .logo.span {
     color: #2196F3;
 }
 
-.page a {
+.link {
     text-decoration: none;
+    list-style: none;
+    font-style: normal;
 }
 
-.contacts a {
+.contacts {
     color: var(--primary-text-color);
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
+.contacts.link:hover,
+.contacts.link:focus {
     color: var(--accent-color);
 }
 
@@ -78,15 +78,10 @@ text-transform: uppercase;
     font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
-display: flex;
-align-items: center;
-text-align: center;
 letter-spacing: 0.06em;
+cursor: pointer;
 }
 
-.section {
-    background-color: var(--primary-bg-color);
-}
 
 .section-title {
     color: var(--title-text-color);
@@ -107,17 +102,16 @@ text-transform: uppercase;
 }
 
 .text {
-    font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 }
 
-.work-list {
+.team {
     background-color: var(--section-bg-color);
 }
 
-.list {
+.team-title {
     color: var(--title-text-color);
     font-weight: 500;
 font-size: 16px;
@@ -126,8 +120,7 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 
-.list-title {
-    font-weight: 400;
+.team-position {
 font-size: 16px;
 line-height: 1.19;
 text-align: center;
@@ -138,9 +131,9 @@ letter-spacing: 0.03em;
     background-color: var(--footer-bg-color);
 }
 
-.logo-2 {
+.footer-logo {
     color: var(--white-color);
-    font-family: Raleway, cursive;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -150,7 +143,6 @@ letter-spacing: 0.03em;
 
 .address {
     color: white;
-    font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -158,14 +150,13 @@ letter-spacing: 0.03em;
 
 .address-list {
     color: rgba(255, 255, 255, 0.6);
-    font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 }
 
-.footer .link:hover,
-.footer .link:focus {
+.address-list.link:hover,
+.address-list.link:focus {
     color: var(--accent-color);
 }
 
@@ -177,10 +168,12 @@ font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
+cursor: pointer;
 }
 
 .button-secondary:hover {
-    color: var(--accent-color);
+    color: var(--white-color);
+    background-color: var(--accent-color);
 }
 
 .items {
@@ -193,7 +186,6 @@ letter-spacing: 0.06em;
 
 .item {
     color: var(--primary-text-color);
-    font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
