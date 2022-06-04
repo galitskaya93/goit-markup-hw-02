@@ -24,6 +24,12 @@ body {
     list-style: none;
 }
 
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+
 .site-nav {
 color: var(--title-text-color);
 background-color: var(--white-color);
@@ -55,9 +61,7 @@ letter-spacing: 0.02em;
     color: var(--white-color);
 }
 
-.link {
-    text-decoration: none;
-}
+
 
 .contacts {
     color: var(--primary-text-color);
@@ -141,7 +145,7 @@ letter-spacing: 0.03em;
 
 
 .address {
-    color: white;
+    color: var(--white-color);
     font-style: normal;
 font-size: 14px;
 line-height: 1.71;
@@ -164,6 +168,7 @@ letter-spacing: 0.03em;
 .button-secondary {
     color: var(--title-text-color);
     background-color: var(--section-bg-color);
+    font-family: inherit;
     font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
