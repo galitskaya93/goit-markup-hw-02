@@ -29,6 +29,9 @@ body {
     color: currentColor;
 }
 
+.current {
+    color: var(--accent-color);
+}
 
 .site-nav {
 color: var(--title-text-color);
